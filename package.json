@@ -1,0 +1,27 @@
+{
+  "name": "dvf-utils",
+  "version": "0.1.0",
+  "description": "utils shared between client and backend",
+  "main": "index.js",
+  "repository": "git@github.com:DeversiFi/dvf-utils.git",
+  "author": "Adrian Gierakowski <adrian.gierakowski@deversifi.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn standard",
+    "lint:fix": "yarn standard --fix",
+    "test": "yarn jest",
+    "test:watch": "yarn jest --watch"
+  },
+  "standard": {
+    "env": [ "node", "jest" ]
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bignumber.js": "^9.0.0"
+  },
+  "devDependencies": {
+    "bfx-api-node-util": "^1.0.9",
+    "jest": "^26.0.1",
+    "standard": "^14.3.4"
+  }
+}
