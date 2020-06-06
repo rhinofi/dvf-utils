@@ -1,6 +1,8 @@
 module.exports = {
   tokenMapping: {
     USDT: 'USD',
-    USDC: 'UDC'
+    usdt: 'usd',
+    USDC: 'UDC',
+    usdc: 'udc'
   }
 }
