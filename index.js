@@ -7,5 +7,7 @@ module.exports = {
   preparePrice: require('./lib/preparePrice'),
   preparePriceBN: require('./lib/preparePriceBN'),
   splitSymbol: require('./lib/splitSymbol'),
-  toBN: require('./lib/toBN')
+  toBN: require('./lib/toBN'),
+  DvfToBfxToken: require('./lib/DvfToBfxToken'),
+  BfxToDvfToken: require('./lib/BfxToDvfToken')
 }
