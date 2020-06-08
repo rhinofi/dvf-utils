@@ -1,6 +1,6 @@
 {
   "name": "dvf-utils",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "utils shared between client and backend",
   "main": "index.js",
   "repository": "git@github.com:DeversiFi/dvf-utils.git",
@@ -13,11 +13,15 @@
     "test:watch": "yarn jest --watch"
   },
   "standard": {
-    "env": [ "node", "jest" ]
+    "env": [
+      "node",
+      "jest"
+    ]
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "bignumber.js": "^9.0.0"
+    "bignumber.js": "^9.0.0",
+    "ramda": "^0.27.0"
   },
   "devDependencies": {
     "bfx-api-node-util": "^1.0.9",
