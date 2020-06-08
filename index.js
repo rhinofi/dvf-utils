@@ -9,5 +9,6 @@ module.exports = {
   splitSymbol: require('./lib/splitSymbol'),
   toBN: require('./lib/toBN'),
   DvfToBfxToken: require('./lib/DvfToBfxToken'),
-  BfxToDvfToken: require('./lib/BfxToDvfToken')
+  BfxToDvfToken: require('./lib/BfxToDvfToken'),
+  bfxSymbolToDvfSymbol: require('./lib/bfxSymbolToDvfSymbol')
 }
