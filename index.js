@@ -11,5 +11,6 @@ module.exports = {
   DvfToBfxToken: require('./lib/DvfToBfxToken'),
   BfxToDvfToken: require('./lib/BfxToDvfToken'),
   bfxSymbolToDvfSymbol: require('./lib/bfxSymbolToDvfSymbol'),
-  MapUSDTSymbol: require('./lib/MapUSDTSymbol')
+  MapUSDTSymbol: require('./lib/MapUSDTSymbol'),
+  dvfToBfxSymbol: require('./lib/dvfToBfxSymbol')
 }
