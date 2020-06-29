@@ -6,7 +6,7 @@ module.exports = {
   USDTMapping: {
     'ETH:UST': 'ETH:USDT',
     'BTC:UST': 'BTC:USDT',
-    'tETHUSD': 'tETHUST',
-    'tBTCUSD': 'tBTCUST'
+    tETHUSD: 'tETHUST',
+    tBTCUSD: 'tBTCUST'
   }
 }
