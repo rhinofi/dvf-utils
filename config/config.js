@@ -8,9 +8,5 @@ module.exports = {
     'BTC:UST': 'BTC:USDT',
     'tETHUSD': 'tETHUST',
     'tBTCUSD': 'tBTCUST'
-  },
-  mappingExeptions: {
-    'tDUSKUSD': 'tDUSK:USD',
-    'tDUSKBTC': 'tDUSK:BTC',
   }
 }
