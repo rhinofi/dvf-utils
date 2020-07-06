@@ -1,6 +1,6 @@
 {
   "name": "dvf-utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "utils shared between client and backend",
   "main": "index.js",
   "repository": "git@github.com:DeversiFi/dvf-utils.git",
