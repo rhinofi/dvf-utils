@@ -8,6 +8,7 @@ module.exports = {
   preparePriceBN: require('./lib/preparePriceBN'),
   splitSymbol: require('./lib/splitSymbol'),
   toBN: require('./lib/toBN'),
+  toBigInt: require('./lib/toBigInt'),
   DvfToBfxToken: require('./lib/DvfToBfxToken'),
   BfxToDvfToken: require('./lib/BfxToDvfToken'),
   bfxSymbolToDvfSymbol: require('./lib/bfxSymbolToDvfSymbol'),
