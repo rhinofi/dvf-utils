@@ -7,8 +7,8 @@
   "author": "Adrian Gierakowski <adrian.gierakowski@deversifi.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "yarn standard",
-    "lint:fix": "yarn standard --fix",
+    "lint": "yarn eslint .",
+    "lint:fix": "yarn lint --fix",
     "test": "yarn jest",
     "test:watch": "yarn jest --watch"
   },
@@ -25,7 +25,12 @@
   },
   "devDependencies": {
     "bfx-api-node-util": "^1.0.9",
-    "jest": "^26.0.1",
-    "standard": "^14.3.4"
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.0.1"
   }
 }
