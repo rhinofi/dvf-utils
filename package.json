@@ -2,7 +2,7 @@
   "name": "dvf-utils",
   "version": "0.2.0",
   "description": "utils shared between client and backend",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:DeversiFi/dvf-utils.git",
   "author": "Adrian Gierakowski <adrian.gierakowski@deversifi.com>",
   "license": "MIT",
