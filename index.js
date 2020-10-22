@@ -14,5 +14,6 @@ module.exports = {
   bfxSymbolToDvfSymbol: require('./lib/bfxSymbolToDvfSymbol'),
   MapUSDTSymbol: require('./lib/MapUSDTSymbol'),
   dvfToBfxSymbol: require('./lib/dvfToBfxSymbol'),
-  bfxToDvfSymbol: require('./lib/bfxToDvfSymbol')
+  bfxToDvfSymbol: require('./lib/bfxToDvfSymbol'),
+  starkTransferTxToMessageHash: require('./lib/starkTransferTxToMessageHash')
 }
