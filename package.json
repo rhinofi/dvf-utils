@@ -10,7 +10,7 @@
     "lint": "yarn eslint .",
     "lint:fix": "yarn lint --fix",
     "test": "yarn jest",
-    "test:watch": "yarn jest --watch"
+    "test:watch": "yarn jest --watchAll"
   },
   "standard": {
     "env": [
