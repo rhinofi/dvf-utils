@@ -12,12 +12,16 @@ module.exports = {
     'tCOMP:USD': 'tCOMP:UST',
     'tUNIUSD': 'tUNIUST',
     'tYFIUSD': 'tYFIUST',
+    'tSUSHI:USD': 'tSUSHI:UST',
+    'tUDCUSD': 'tUDCUST',
     // bfx to dvf
     'ETH:UST': 'ETH:USDT',
     'BTC:UST': 'BTC:USDT',
     'LINK:UST': 'LINK:USDT',
     'COMP:UST': 'COMP:USDT',
     'UNI:UST': 'UNI:USDT',
-    'YFI:UST': 'YFI:USDT'
+    'YFI:UST': 'YFI:USDT',
+    'SUSHI:UST': 'SUSHI:USDT',
+    'UDC:UST': 'USDC:USDT'
   }
 }
