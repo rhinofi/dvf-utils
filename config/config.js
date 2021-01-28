@@ -13,7 +13,7 @@ module.exports = {
     'tUNIUSD': 'tUNIUST',
     'tYFIUSD': 'tYFIUST',
     'tSUSHI:USD': 'tSUSHI:UST',
-    'tUSDC:USD': 'tUDC:UST',
+    'tUDCUSD': 'tUDCUST',
     // bfx to dvf
     'ETH:UST': 'ETH:USDT',
     'BTC:UST': 'BTC:USDT',
