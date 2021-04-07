@@ -1,10 +1,13 @@
 {
   "name": "dvf-utils",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "utils shared between client and backend",
   "main": "lib/index.js",
   "repository": "git@github.com:DeversiFi/dvf-utils.git",
-  "author": "Adrian Gierakowski <adrian.gierakowski@deversifi.com>",
+  "contributors": [
+    "Adrian Gierakowski <adrian.gierakowski@deversifi.com>",
+    "Galin Kostov <galin.kostov@deversifi.com>"
+  ],
   "license": "MIT",
   "scripts": {
     "lint": "yarn eslint .",

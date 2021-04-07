@@ -23,5 +23,9 @@ module.exports = {
     'YFI:UST': 'YFI:USDT',
     'SUSHI:UST': 'SUSHI:USDT',
     'UDC:UST': 'USDC:USDT'
+  },
+  significantDigits: {
+    price: 5,
+    amount: 8
   }
 }
