@@ -24,7 +24,7 @@ module.exports = {
     'SUSHI:UST': 'SUSHI:USDT',
     'UDC:UST': 'USDC:USDT'
   },
-  significantDigits: {
+  decimalSpaces: {
     price: 5,
     amount: 8
   }
