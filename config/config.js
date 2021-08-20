@@ -15,6 +15,7 @@ module.exports = {
     'tSUSHI:USD': 'tSUSHI:UST',
     'tUDCUSD': 'tUDCUST',
     'tETHUDC': 'tETHUST',
+    'tBTCUDC': 'tBTCUST',
     // bfx to dvf
     'ETH:UST': 'ETH:USDT',
     'BTC:UST': 'BTC:USDT',
