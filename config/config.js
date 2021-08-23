@@ -25,5 +25,9 @@ module.exports = {
     'YFI:UST': 'YFI:USDT',
     'SUSHI:UST': 'SUSHI:USDT',
     'UDC:UST': 'USDC:USDT'
+  },
+  precision: {
+    priceSignificantDigits: 5,
+    amountDecimalPlaces: 8
   }
 }
