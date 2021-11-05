@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "axios": "^0.24.0",
     "bignumber.js": "^9.0.0",
     "bson": "^1.1.5",
     "ramda": "^0.27.1",
@@ -33,6 +34,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.2",
-    "jest": "^26.6.1"
+    "jest": "^26.6.1",
+    "nock": "^13.1.4"
   }
 }
