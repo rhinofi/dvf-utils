@@ -2,7 +2,8 @@
 module.exports = {
   tokenMapping: {
     USDT: 'USD',
-    USDC: 'UDC'
+    USDC: 'UDC',
+    MANA: 'MNA'
   },
   USDTMapping: {
     // dvf to bfx
