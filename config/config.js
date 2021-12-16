@@ -16,6 +16,12 @@ module.exports = {
     'tUDCUSD': 'tUDCUST',
     'tETHUDC': 'tETHUST',
     'tBTCUDC': 'tBTCUST',
+    't1INCH:USD': 't1INCH:UST',
+    'tMATIC:USD': 'tMATIC:UST',
+    'tAAVE:USD': 'tAAVE:UST',
+    'tSPELL:USD': 'tSPELL:UST',
+    'tMANA:USD': 'tMNAUSD',
+    'tCRVUSD': 'tCRVUST',
     // bfx to dvf
     'ETH:UST': 'ETH:USDT',
     'BTC:UST': 'BTC:USDT',
@@ -24,6 +30,12 @@ module.exports = {
     'UNI:UST': 'UNI:USDT',
     'YFI:UST': 'YFI:USDT',
     'SUSHI:UST': 'SUSHI:USDT',
-    'UDC:UST': 'USDC:USDT'
+    'UDC:UST': 'USDC:USDT',
+    '1INCH:UST': '1INCH:USDT',
+    'MATIC:UST': 'MATIC:USDT',
+    'AAVE:UST': 'AAVE:USDT',
+    'SPELL:UST': 'SPELL:USDT',
+    'MNA:USDT': 'MANA:USDT',
+    'CRV:UST': 'CRV:USDT'
   }
 }
