@@ -21,7 +21,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "bignumber.js": "^9.0.0",
-    "bson": "^1.1.5",
+    "bson": "^4.6.1",
     "joi": "^17.6.0",
     "lodash": "^4.17.21",
     "ramda": "^0.27.1",
