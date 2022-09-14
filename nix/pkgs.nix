@@ -9,6 +9,35 @@ let
     # These overlays augment centrally defined packages with things specific
     # to this service.
     [
+      (self: super: {
+        ci = {
+          pr-step = self.callPackage
+            ({
+              lib,
+              utils,
+              yarn-berry,
+              nodejs,
+              name ? "pr-step"
+            }:
+            let
+              yarnExe = lib.getExe yarn-berry;
+            in utils.writeBashBin
+              name
+              ''
+              set -ueo pipefail
+
+              echo yarn version: $(${yarnExe} --version)
+
+              ${yarnExe} --immutable
+              ${yarnExe} test
+              ${yarnExe} lint
+              ''
+            )
+            {}
+          ;
+          deploy-step = self.npm-publish;
+        };
+      })
     ]
     ++
     overlays
