@@ -7,8 +7,6 @@
   "author": "Adrian Gierakowski <adrian.gierakowski@deversifi.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "yarn eslint .",
-    "lint:fix": "yarn lint --fix",
     "test": "yarn jest",
     "test:watch": "yarn jest --watchAll"
   },
