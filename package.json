@@ -1,6 +1,6 @@
 {
   "name": "@rhino.fi/dvf-utils",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "utils shared between client and backend",
   "main": "lib/index.js",
   "repository": "git@github.com:rhinofi/dvf-utils.git",
