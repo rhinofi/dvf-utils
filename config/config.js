@@ -1,28 +1,27 @@
-/* eslint-disable quote-props */
 module.exports = {
   tokenMapping: {
     USDT: 'USD',
     USDC: 'UDC',
-    MANA: 'MNA'
+    MANA: 'MNA',
   },
   USDTMapping: {
     // dvf to bfx
-    'tETHUSD': 'tETHUST',
-    'tBTCUSD': 'tBTCUST',
+    tETHUSD: 'tETHUST',
+    tBTCUSD: 'tBTCUST',
     'tLINK:USD': 'tLINK:UST',
     'tCOMP:USD': 'tCOMP:UST',
-    'tUNIUSD': 'tUNIUST',
-    'tYFIUSD': 'tYFIUST',
+    tUNIUSD: 'tUNIUST',
+    tYFIUSD: 'tYFIUST',
     'tSUSHI:USD': 'tSUSHI:UST',
-    'tUDCUSD': 'tUDCUST',
-    'tETHUDC': 'tETHUST',
-    'tBTCUDC': 'tBTCUST',
+    tUDCUSD: 'tUDCUST',
+    tETHUDC: 'tETHUST',
+    tBTCUDC: 'tBTCUST',
     't1INCH:USD': 't1INCH:UST',
     'tMATIC:USD': 'tMATIC:UST',
     'tAAVE:USD': 'tAAVE:UST',
     'tSPELL:USD': 'tSPELL:UST',
     'tMANA:USD': 'tMNAUSD',
-    'tCRVUSD': 'tCRVUST',
+    tCRVUSD: 'tCRVUST',
     // bfx to dvf
     'ETH:UST': 'ETH:USDT',
     'BTC:UST': 'BTC:USDT',
@@ -37,6 +36,6 @@ module.exports = {
     'AAVE:UST': 'AAVE:USDT',
     'SPELL:UST': 'SPELL:USDT',
     'MNA:USDT': 'MANA:USDT',
-    'CRV:UST': 'CRV:USDT'
-  }
+    'CRV:UST': 'CRV:USDT',
+  },
 }

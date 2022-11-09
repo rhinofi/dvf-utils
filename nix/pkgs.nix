@@ -30,7 +30,6 @@ let
 
               ${yarnExe} --immutable
               ${yarnExe} test
-              ${yarnExe} lint
               ''
             )
             {}
@@ -38,6 +37,7 @@ let
           deploy-step = self.npm-publish;
         };
       })
+      (self: super: super.reusable-overlays.ci-add-linting-and-formatting-checks self super)
     ]
     ++
     overlays

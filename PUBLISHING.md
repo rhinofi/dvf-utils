@@ -9,6 +9,7 @@ Also, remember to make sure that any new files, which need to be included in the
 ## Publishing manually
 
 From nix shell:
+
 ```sh
 npm-publish
 ```
