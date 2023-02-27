@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "rhinofi",
         "repo": "rhino-core",
-        "rev": "1154ba92cc325d594c06da425baf67de837c32a5",
-        "sha256": "1j33fxmv8fzcf9b0ywqgw7x01vs9c1sjw8gjixrw346chvc8nvzv",
+        "rev": "ec719f2c124e928a4ccf9f20e411c0d27480a4cc",
+        "sha256": "0h73vhf9qk2gzjdgvxs9z652srpldsmw6ggh88s1bhvc3wnjk4xr",
         "type": "tarball",
-        "url": "https://github.com/rhinofi/rhino-core/archive/1154ba92cc325d594c06da425baf67de837c32a5.tar.gz",
+        "url": "https://github.com/rhinofi/rhino-core/archive/ec719f2c124e928a4ccf9f20e411c0d27480a4cc.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
