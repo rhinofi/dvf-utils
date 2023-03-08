@@ -19,7 +19,7 @@ module.exports = {
     't1INCH:USD': 't1INCH:UST',
     'tMATIC:USD': 'tMATIC:UST',
     'tAAVE:USD': 'tAAVE:UST',
-    'tSPELL:USD': 'tSPELL:UST',
+    'tSPELL:USD': 'tSPELL:USD',
     'tMANA:USD': 'tMNAUSD',
     tCRVUSD: 'tCRVUST',
     // bfx to dvf
@@ -34,7 +34,7 @@ module.exports = {
     '1INCH:UST': '1INCH:USDT',
     'MATIC:UST': 'MATIC:USDT',
     'AAVE:UST': 'AAVE:USDT',
-    'SPELL:UST': 'SPELL:USDT',
+    'SPELL:USD': 'SPELL:USDT',
     'MNA:USDT': 'MANA:USDT',
     'CRV:UST': 'CRV:USDT',
   },
